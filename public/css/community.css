@@ -1,0 +1,45 @@
+/*---------------------------add article block--------------------------*/
+.add-article-block {
+  margin-bottom: 40px;
+  box-shadow: 0px 10px 31px 0px rgba(0,0,0,0.75);
+}
+
+.add-article-block .options {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-article-block .options .option {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.add-article-block .options .option.active {
+  border-bottom: 1px solid black;
+}
+
+.add-article-block .write-article {
+  margin: 10px;
+  padding: 10px;
+}
+
+.write-article input {
+  width: 100%;
+}
+
+.profile-stats-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-stats-block .profile-stat {
+  width: calc(100% * (1/2) - 10px - 1px);
+  text-align: center;
+}

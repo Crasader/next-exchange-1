@@ -1,0 +1,58 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+
+/public/js/app.js
+/public/img/suggestions
+/public/uploads/suggestions
+/public/css/all.css
+/composer.lock
+
+/public/js/community
+
+
+Homestead.json
+Homestead.yaml
+npm-debug.log
+composer.lock
+laravel-echo-server.json
+yarn-error.log
+package-lock.json
+public/data.json
+.env
+.DS_Store
+debug.txt
+
+public/debug.txt
+public/vendor/
+public/components/*
+public/vendor/adminlte/
+public/vendor/backpack/cropper/node_modules/
+public/fonts/
+public/css/all.css
+public/css/app.css
+public/js/all.js
+public/js/app.js
+public/data.json
+public/vendor/adminlte/package-lock.json
+public/vendor/backpack/cropper/node_modules/
+public/truffle/
+
+storage/debugbar/
+
+database/seeds/UsersTableSeeder-private.php
+
+app/Servers/node_server
+app/Servers/node_server/*
+
+Would skip repository temp/BitcoinExchange
+Would skip repository temp/gocryptotrader
+Would skip repository temp/intersango
+Would skip repository temp/openex
+Would skip repository temp/php_btc_exchange
+
+public/mix-manifest.json
